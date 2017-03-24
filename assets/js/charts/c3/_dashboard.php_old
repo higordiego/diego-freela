@@ -1,0 +1,1004 @@
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	
+  	<script type="text/javascript">
+
+     window.onunload="treetable_saveit"
+     window.onload = "treetable_rebuild"
+
+  	</script>
+<!-- CORE START -->
+	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery_ui/core.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery_ui/effects.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery_ui/interactions.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery_ui/widgets.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/app.js"></script>
+<!-- CORE END -->
+
+<!-- PAGES START -->
+
+	<!-- PLUGINS START -->
+
+	<!-- Second navbar -->
+
+	<!-- /second navbar -->
+
+
+	<!-- Page header -->
+	<div class="page-header">
+		<div class="page-header-content">
+			<div class="page-title">
+				<h4>
+					
+					<span class="text-semibold">Home</span> - Business Snapshot
+					<small class="display-block">Welcome, Roberto Doering!</small>
+				</h4>
+			</div>
+
+
+		</div>
+	</div>
+	<!-- /page header -->
+
+
+	<!-- Page container -->
+	<div class="page-container">
+
+		<!-- Page content -->
+		<div class="page-content">
+
+			<!-- Main content -->
+			<div class="content-wrapper">
+
+				<!-- Main charts -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="panel panel-flat">
+							<div class="panel-heading">
+						<h5 class="panel-title">Business <strong>Filter</strong></h5>
+						<div class="heading-elements">
+							<ul class="icons-list">
+		                		<li><a data-action="collapse"></a></li>
+		                		<li><a data-action="reload"></a></li>
+		                		<li><a data-action="close"></a></li>
+		                	</ul>
+	                	</div>
+					</div>
+
+
+							<div class="panel-body">
+							<div class="row">
+							<div class="col-md-4">
+							    <label class="display-block"><strong>Locations:</strong> </label>
+								<div class="tree-checkbox-options well border-left-danger border-left-lg">
+									<ul>
+										<li class="folder">PawnShop
+											<ul>
+												<li>Miami
+													<ul>
+													<li>Store 31
+													<ul>
+														<li>John Wayne</li>
+														<li>David Mirra</li>
+														<li>Bob Steam</li>
+													</ul>
+												</li>
+												</ul>
+											</ul>
+										</li>
+										
+										<li class="folder">Hospitality
+											<ul>
+												<li>Boston
+													<ul>
+														<li>Restaurant
+													<ul>
+														<li>John Wayne</li>
+														<li>David Mirra</li>
+														<li>Bob Steam</li>
+													</ul>
+												</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+
+									</ul>
+								</div>
+							
+						</div>
+					
+								<div class="col-md-5">
+							<div class="content-group">
+										<label class="display-block"><strong>Action Codes:</strong> </label>
+										<input type="text" value="New Pawn,New Buy,Layaway" class="tags-input">
+								</div>
+							
+								<div class="form-group">
+									<label class="display-block"><strong>Period:</strong> </label>
+									<button type="button" class="btn btn-default daterange-predefined">
+										<i class="icon-calendar22 position-left"></i>
+										<span></span>
+										<b class="caret"></b>
+									</button>
+								</div>
+								<div class="content-group">
+										<label class="display-block"><strong>Tag Smart Search:</strong> </label>
+										<input type="text" value="Small Store,D&D, High Traffic" class="tags-input">
+								</div>
+								<div class="btn-group btn-group-justified">
+								<a href="#" class="btn bg-slate-700">Apply</a>
+								<a href="#" class="btn bg-slate-700">Reset</a>
+								<a href="#" class="btn bg-slate-700">Save</a>
+								</div>
+								</div>
+								</div>
+								</div>
+								</div>
+						</div>
+					</div>
+					</div>
+
+				</div>
+				<div class="row">
+					
+
+					<div class="col-sm-12">
+
+						<!-- Sales stats -->
+						<div class="panel panel-flat">
+							<div class="panel-heading">
+								<h5 class="panel-title">Business <strong>Main Chart</strong></h5>
+								<h6 class="panel-subtitle"><strong>Business Group</strong> PawnShop</h6>
+								<div class="heading-elements">
+									<!--<form class="heading-form" action="#">
+										<div class="form-group">
+											<select class="change-date select-sm" id="select_date">
+												<optgroup label="<i class='icon-watch pull-right'></i> Time period">
+													<option value="val1">June, 29 - July, 5</option>
+													<option value="val2">June, 22 - June 28</option>
+													<option value="val3" selected="selected">June, 15 - June, 21</option>
+													<option value="val4">June, 8 - June, 14</option>
+												</optgroup>
+											</select>
+										</div>
+									</form>-->
+			                	</div>
+							</div>
+
+							<!--<div class="container-fluid">
+								<div class="row text-center">
+									<div class="col-md-2">
+										<div class="content-group">
+										    <h7 class="text-semibold no-margin"></i> ITEM SALE</h7>
+											<h5 class="text-semibold no-margin"><i class="icon-cash3 position-left text-slate"></i> 5,689</h5>
+											<i class="icon-stats-growth2 position-left"></i> 2.43%</span>
+											<span class="text-muted text-size-small">orders weekly</span>
+										</div>
+									</div>
+
+									<div class="col-md-2">
+										<div class="content-group">
+											<h7 class="text-semibold no-margin"></i> NEW PAWN</h7>
+											<h5 class="text-semibold no-margin"><i class="icon-cash3 position-left text-slate"></i> 32,568</h5>
+											<span class="text-muted text-size-small">orders monthly</span>
+										</div>
+									</div>
+
+									<div class="col-md-2">
+										<div class="content-group">
+										    <h7 class="text-semibold no-margin"></i> NEW BUY</h7>
+											<h5 class="text-semibold no-margin"><i class="icon-cash3 position-left text-slate"></i> $23,464</h5>
+											<span class="text-muted text-size-small">average revenue</span>
+										</div>
+									</div>
+
+									<div class="col-md-2">
+										<div class="content-group">
+										    <h7 class="text-semibold no-margin"></i> LAYAWAY</h7>
+											<h5 class="text-semibold no-margin"><i class="icon-cash3 position-left text-slate"></i> $23,464</h5>
+											<span class="text-muted text-size-small">average revenue</span>
+										</div>
+									</div>
+
+									<div class="col-md-2">
+										<div class="content-group">
+											<h7 class="text-semibold no-margin"></i> VOID</h7>
+											<h5 class="text-semibold no-margin"><i class="icon-cash3 position-left text-slate"></i> $23,464</h5>
+											<span class="text-muted text-size-small">average revenue</span>
+										</div>
+									</div>
+
+									<div class="col-md-2">
+										<div class="content-group">
+										    <h7 class="text-semibold no-margin"></i> RETURN</h7>
+											<h5 class="text-semibold no-margin"><i class="icon-cash3 position-left text-slate"></i> $23,464</h5>
+											<span class="text-muted text-size-small">average revenue</span>
+										</div>
+									</div>
+								</div>
+							</div>-->
+
+						<div class="panel-body">
+						<div class="chart-container">
+							<div class="chart" id="c3-combined-chart"></div>
+						</div>
+					</div>
+						</div>
+						<!-- /sales stats -->
+
+					</div>
+				</div>
+				<div class="row">
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h5 class="panel-title">Business <strong>Main Table</strong></h5>
+						<div class="heading-elements">
+							<ul class="icons-list">
+		                		<li><a data-action="collapse"></a></li>
+		                		<li><a data-action="reload"></a></li>
+		                		<li><a data-action="close"></a></li>
+		                	</ul>
+	                	</div>
+					</div>
+
+					<!--<div class="panel-body">
+						The <code>DataTables</code> is a highly flexible tool, based upon the foundations of progressive enhancement, and will add advanced interaction controls to any HTML table. DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function. Searching, ordering, paging etc goodness will be immediately added to the table, as shown in this example. <strong>Datatables support all available table styling.</strong>
+					</div>-->
+					<div class="table-responsive">
+					<table id="table1" class="table table-bordered">
+<thead>
+<tr>
+    <th rowspan="2">Location</th>
+    <th rowspan="2">Traffic</th>
+    <th rowspan="2">Alerts</th>
+    <th colspan="4">MAIN KPI: ITEM SALE</th>
+    <th colspan="4">NEW BUY</th>
+    <th colspan="4">NEW PAWN</th>
+    <th colspan="4">LAYAWAY</th>
+    <th colspan="4">CANCEL</th>
+    <th colspan="4">ITEM VOID</th>
+    
+</tr>
+
+<tr>
+    <th colspan="1">Total $</th>
+    <th colspan="1">Total #</th>
+    <th colspan="1">Conv. Rate</th>
+    <th colspan="1">Avg. Check</th>
+    <th colspan="1">% KPI</th>
+    <th colspan="1">Total $</th>
+    <th colspan="1">Total #</th>
+    <th colspan="1">Avg. $</th>
+    <th colspan="1">% KPI</th>
+    <th colspan="1">Total $</th>
+    <th colspan="1">Total #</th>
+    <th colspan="1">Avg. $</th>
+    <th colspan="1">% KPI</th>
+    <th colspan="1">Total $</th>
+    <th colspan="1">Total #</th>
+    <th colspan="1">Avg. $</th>
+    <th colspan="1">% KPI</th>
+    <th colspan="1">Total $</th>
+    <th colspan="1">Total #</th>
+    <th colspan="1">Avg. $</th>
+    <th colspan="1">% KPI</th>
+    <th colspan="1">Total $</th>
+    <th colspan="1">Total #</th>
+    <th colspan="1">Avg. $</th>
+
+</tr>
+
+</thead>
+						<tbody>
+<tr id="table1_0">
+    <td><a href="#table1" onclick="treetable_toggleRow('table1_0');">PawnShop</td>
+    <td>20521</td>
+    <td>158</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+
+<tr id="table1_0_0">
+    <td>&nbsp;&nbsp;<a href="#table1" onclick="treetable_toggleRow('table1_0_0');">Miami</td>
+    <td>23658</td>
+    <td>235</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+<tr id="table1_0_0_0">
+    <td>&nbsp;&nbsp;&nbsp;<a href="#table1" onclick="treetable_toggleRow('table1_0_0_0');">Store 31</td>
+    <td>23658</td>
+    <td>235</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+<tr id="table1_0_0_0_0">
+    <td>&nbsp;&nbsp;&nbsp; John Wayne</td>
+    <td>23658</td>
+    <td>235</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+<tr id="table1_0_0_0_1">
+    <td>&nbsp;&nbsp;&nbsp; David Mirra</td>
+    <td>23658</td>
+    <td>235</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+<tr id="table1_0_0_0_2">
+    <td>&nbsp;&nbsp;&nbsp; Bob Steam</td>
+    <td>23658</td>
+    <td>235</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+
+
+<tr id="table1_1">
+    <td><a href="#tableid" onclick="treetable_toggleRow('table1_1');">Hospitality</td>
+    <td>20521</td>
+    <td>158</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+<tr id="table1_1_0">
+    <td>&nbsp;&nbsp;<a href="#table1" onclick="treetable_toggleRow('table1_1_0');">Boston</td>
+    <td>23658</td>
+    <td>235</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+<tr id="table1_1_0_0">
+    <td>&nbsp;&nbsp;&nbsp;<a href="#table1" onclick="treetable_toggleRow('table1_1_0_0');">Restaurant</td>
+    <td>23658</td>
+    <td>235</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+<tr id="table1_1_0_0_0">
+    <td>&nbsp;&nbsp;&nbsp; John Wayne</td>
+    <td>23658</td>
+    <td>235</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+<tr id="table1_1_0_0_1">
+    <td>&nbsp;&nbsp;&nbsp; David Mirra</td>
+    <td>23658</td>
+    <td>235</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+<tr id="table1_1_0_0_2">
+    <td>&nbsp;&nbsp;&nbsp; Bob Steam</td>
+    <td>23658</td>
+    <td>235</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+    <td>200</td>
+</tr>
+
+</tbody>
+
+					</table>
+				</div>
+				</div>
+				</div>
+				<!-- /main charts -->
+				<div class="row">
+				<div class="panel panel-white">
+					<div class="panel-heading">
+						<h5 class="panel-title"> <span class="text-semibold">e-Messages </span>  Center</h5>
+						<div class="heading-elements">
+							<ul class="icons-list">
+		                		<li><a data-action="collapse"></a></li>
+		                		<li><a data-action="reload"></a></li>
+		                		<li><a data-action="close"></a></li>
+		                	</ul>
+	                	</div>
+					</div>
+
+					<table class="table tasks-list table-lg">
+						<thead>
+							<tr>
+								<th>Store</th>
+								<th>Period</th>
+				                <th>Description</th>
+				                <th>Priority</th>
+				                <th>Created</th>
+				                <th>Status</th>
+				                <th>Assigned users</th>
+								<th class="text-center text-muted" style="width: 30px;"><i class="icon-checkmark3"></i></th>
+				            </tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Store 12</td>
+								<td>Miami</td>
+				                <td>
+				                	<div class="text-semibold"><a href="myalerts_detailed.php">Excessive Void Transaction</a></div>
+				                	<div class="text-muted">Grumbled ripely eternal sniffed the when hello less much..</div>
+				                </td>
+				                <td>
+				                	<div class="btn-group">
+										<a href="#" class="label label-danger dropdown-toggle" data-toggle="dropdown">Highest <span class="caret"></span></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li class="active"><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+											<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+											<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+											<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+										</ul>
+									</div>
+			                	</td>
+				                <td>
+				                	<div class="input-group input-group-transparent">
+				                		<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+				                		<input type="text" class="form-control datepicker" value="22 January, 16">
+				                	</div>
+			                	</td>
+				                <td>
+				                	<select name="status" class="select" data-placeholder="Select status">
+				                		<option value="open" selected="selected">Open</option>
+				                		<option value="hold">On hold</option>
+				                		<option value="invalid">Invalid</option>
+				                		<option value="closed">Closed</option>
+				                		<option value="closed">Closed by System</option>
+				                	</select>
+				                </td>
+				                <td>
+				                	<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+				                	<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+				                	<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+				                </td>
+								<td class="text-center">
+									<ul class="icons-list">
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><i class="fa fa-search"></i> Start Investigation</a></li>
+												<li><a href="#"><i class="icon-download"></i> Download Videos</a></li>
+												<li class="divider"></li>
+												<li><a href="#"><i class="icon-rotate-ccw2"></i> Foward</a></li>
+												<li><a href="#"><i class="icon-cross2"></i> Delete</a></li>
+											</ul>
+										</li>
+									</ul>
+								</td>
+				            </tr>
+
+							<tr>
+								<td>Store 04</td>
+								<td>Miami</td>
+				                <td>
+				                	<div class="text-semibold"><a href="myalerts_detailed.php">High Traffic</a></div>
+				                	<div class="text-muted">One morning, when Gregor Samsa woke from troubled..</div>
+				                </td>
+				                <td>
+				                	<div class="btn-group">
+										<a href="#" class="label label-danger dropdown-toggle" data-toggle="dropdown">Highest <span class="caret"></span></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li class="active"><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+											<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+											<li><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+											<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+										</ul>
+									</div>
+			                	</td>
+				                <td>
+				                	<div class="input-group input-group-transparent">
+				                		<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+				                		<input type="text" class="form-control datepicker" value="22 January, 16">
+				                	</div>
+			                	</td>
+				                <td>
+				                	<select name="status" class="select" data-placeholder="Select status">
+				                		<option value="open" selected="selected">Open</option>
+				                		<option value="hold">On hold</option>
+				                		<option value="invalid">Invalid</option>
+				                		<option value="closed">Closed</option>
+				                		<option value="closed">Closed by System</option>
+				                	</select>
+				                </td>
+				                <td>
+				                	<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+				                	<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+				                	<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+				                	<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+				                </td>
+								<td class="text-center">
+									<ul class="icons-list">
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><i class="fa fa-search"></i> Start Investigation</a></li>
+												<li><a href="#"><i class="icon-download"></i> Download Videos</a></li>
+												<li class="divider"></li>
+												<li><a href="#"><i class="icon-rotate-ccw2"></i> Foward</a></li>
+												<li><a href="#"><i class="icon-cross2"></i> Delete</a></li>
+											</ul>
+										</li>
+									</ul>
+								</td>
+				            </tr>
+
+							<tr>
+								<td>Store 07</td>
+								<td>Miami</td>
+				                <td>
+				                	<div class="text-semibold"><a href="myalerts_detailed.php">Excessive low $$ Transactions</a></div>
+				                	<div class="text-muted">A collection of textile samples lay spread out on the table..</div>
+				                </td>
+				                <td>
+				                	<div class="btn-group">
+										<a href="#" class="label label-primary dropdown-toggle" data-toggle="dropdown">Normal <span class="caret"></span></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+											<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+											<li class="active"><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+											<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+										</ul>
+									</div>
+			                	</td>
+				                <td>
+				                	<div class="input-group input-group-transparent">
+				                		<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+				                		<input type="text" class="form-control datepicker" value="22 January, 16">
+				                	</div>
+			                	</td>
+				                <td>
+				                	<select name="status" class="select" data-placeholder="Select status">
+				                		<option value="open" selected="selected">Open</option>
+				                		<option value="hold">On hold</option>
+				                		<option value="invalid">Invalid</option>
+				                		<option value="closed">Closed</option>
+				                		<option value="closed">Closed by System</option>
+				                	</select>
+				                </td>
+				                <td>
+				                	<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+				                	<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+				                	<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+				                </td>
+								<td class="text-center">
+									<ul class="icons-list">
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><i class="fa fa-search"></i> Start Investigation</a></li>
+												<li><a href="#"><i class="icon-download"></i> Download Videos</a></li>
+												<li class="divider"></li>
+												<li><a href="#"><i class="icon-rotate-ccw2"></i> Foward</a></li>
+												<li><a href="#"><i class="icon-cross2"></i> Delete</a></li>
+											</ul>
+										</li>
+									</ul>
+								</td>
+				            </tr>
+
+							<tr>
+								<td>Store 03</td>
+								<td>Miami</td>
+				                <td>
+				                	<div class="text-semibold"><a href="myalerts_detailed.php">High Traffic</a></div>
+				                	<div class="text-muted">That he had recently cut out of an illustrated magazine..</div>
+				                </td>
+				                <td>
+				                	<div class="btn-group">
+										<a href="#" class="label label-primary dropdown-toggle" data-toggle="dropdown">Normal <span class="caret"></span></a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li><a href="#"><span class="status-mark position-left bg-danger"></span> Highest priority</a></li>
+											<li><a href="#"><span class="status-mark position-left bg-info"></span> High priority</a></li>
+											<li class="active"><a href="#"><span class="status-mark position-left bg-primary"></span> Normal priority</a></li>
+											<li><a href="#"><span class="status-mark position-left bg-success"></span> Low priority</a></li>
+										</ul>
+									</div>
+			                	</td>
+				                <td>
+				                	<div class="input-group input-group-transparent">
+				                		<div class="input-group-addon"><i class="icon-calendar2 position-left"></i></div>
+				                		<input type="text" class="form-control datepicker" value="22 January, 16">
+				                	</div>
+			                	</td>
+				                <td>
+				                	<select name="status" class="select" data-placeholder="Select status">
+				                		<option value="open" selected="selected">Open</option>
+				                		<option value="hold">On hold</option>
+				                		<option value="invalid">Invalid</option>
+				                		<option value="closed">Closed</option>
+				                		<option value="closed">Closed by System</option>
+				                	</select>
+				                </td>
+				                <td>
+			                		<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+			                		<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+			                		<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+			                		<a href="#" class="text-default">&nbsp;<i class="icon-plus22"></i></a>
+				                </td>
+								<td class="text-center">
+									<ul class="icons-list">
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-menu9"></i></a>
+											<ul class="dropdown-menu dropdown-menu-right">
+												<li><a href="#"><i class="fa fa-search"></i> Start Investigation</a></li>
+												<li><a href="#"><i class="icon-download"></i> Download Videos</a></li>
+												<li class="divider"></li>
+												<li><a href="#"><i class="icon-rotate-ccw2"></i> Foward</a></li>
+												<li><a href="#"><i class="icon-cross2"></i> Delete</a></li>
+											</ul>
+										</li>
+									</ul>
+								</td>
+				            </tr>
+
+							
+						</tbody>
+					</table>
+				</div>
+				</div>
+
+				<!-- Dashboard content -->
+
+				<!-- /dashboard content -->
+
+			</div>
+			<!-- /main content -->
+
+		</div>
+		<!-- /page content -->
+
+	</div>
+	<!-- /page container -->
+   
+	</script>
+<!-- CORE START -->
+	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery_ui/core.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery_ui/effects.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery_ui/interactions.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery_ui/widgets.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/app.js"></script>
+<!-- CORE END -->
+	<script type="text/javascript" src="assets/js/pages/extra_trees.js"></script>
+	<script type="text/javascript" src="assets/js/pages/picker_date.js"></script>
+	<script type="text/javascript" src="assets/js/pages/tasks_list.js"></script>
+	<script type="text/javascript" src="assets/js/pages/dashboard.js"></script>
+	<script type="text/javascript" src="assets/js/pages/form_tags_input.js"></script>
+	<script type="text/javascript" src="assets/js/pages/extra_trees.js"></script>
+	<script type="text/javascript" src="assets/js/pages/datatables_basic.js"></script>
+<!-- PAGES START -->
+   
+<!-- PLUGINS START -->
+	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/nicescroll.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/drilldown.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script type="text/javascript" src="assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js"></script>
+
+	<script type="text/javascript" src="assets/js/core/app.js"></script>
+	<script type="text/javascript" src="assets/js/pages/dashboard.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/nicescroll.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/drilldown.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+ 	<script type="text/javascript" src="assets/js/plugins/ui/nicescroll.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/drilldown.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/trees/fancytree_childcounter.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/notifications/jgrowl.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/pickers/anytime.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/pickers/pickadate/picker.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/pickers/pickadate/picker.time.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/pickers/pickadate/legacy.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/extensions/cookie.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/trees/fancytree_all.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/trees/fancytree_childcounter.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/tables/datatables/datatables.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/tables/datatables/extensions/natural_sort.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/selects/select2.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/tags/tagsinput.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/tags/tokenfield.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/prism.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/inputs/typeahead/typeahead.bundle.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script type="text/javascript" src="treetable.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/visualization/c3/c3.min.js"></script>
+	<script type="text/javascript" src="assets/js/charts/c3/c3_bars_pies.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/selects/select2.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/tables/datatables/datatables.min.js"></script>
+
+
+
+</body>
+
+</html>

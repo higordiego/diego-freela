@@ -1,0 +1,16 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "Freela Diego",
+  "main": "index.js",
+  "scripts": {
+   "start": "live-server"
+  },
+  "keywords": [
+    "html",
+    "+",
+    "bootstrap"
+  ],
+  "author": "Higor Diego",
+  "license": "ISC"
+}
